@@ -5,7 +5,7 @@ ul, body{
 	padding: 0;
 	height: 100%
 }
-h2{
+h2, h1{
 	font-family: 'Roboto Condensed', sans-serif;
 	text-transform: uppercase;
 }
@@ -44,6 +44,10 @@ h2{
 	text-transform: uppercase;
 	color: white;
 	text-decoration: none;
+}
+.nav a:hover {
+	color: #6abd46; 
+	text-decoration: underline;
 }
 
 /**
@@ -110,23 +114,22 @@ video{
 }
 #container{
 	margin: 0 auto;
-	width: 880px;
+	width: 920px;
 	margin-top: 200px;
 }
 #about{
 	float: left;
 	width: 400px;
+	height: 480px;
 	padding-right: 60px;
 	font-family: 'Slabo 13px', serif;
-	background-color: rgba(125,125,125, 0.9);
-	color: white;
-	
+	background-color: rgba(125,125,125, 0.9);	
 }
 
 #about p {
 	font-family: 'Slabo 13px', serif;
 	font-size: 16px;
-	line-height: 27px;
+	line-height: 25px;
 	letter-spacing: 1px;
 	color: white;
 	padding-left: 50px;
@@ -134,22 +137,27 @@ video{
 
 #about h2 {
 	padding-left: 50px;
+	color: #6abd46;
+	font-size: 30px;
 }
 
 #facilities{
 	float: left;
 	width: 400px;
+	height: 480px;
 	font-family: 'Slabo 13px', serif;
-	color: white;
+	padding-right: 60px;
 	background-color: rgba(125,125,125, 0.9);
-	color: white;
-	height: 462px;
+}
 
+#facilities h2 {
+	color: #6abd46;
+	font-size: 30px;
 }
 
 #facilities p{
 	font-size: 16px;
-	line-height: 27px;
+	line-height: 25px;
 	letter-spacing: 1px;
 	color: white;
 
@@ -160,6 +168,7 @@ video{
 	letter-spacing: 1px;
 	margin: 5px auto;
 	margin-left: 5px;
+	color: white;
 }
 
 #facilities ul {
@@ -178,6 +187,7 @@ video{
     top: 0;
     left: 0;
 }
+
 #featureArtists p,a{
 	color: white;
 }
@@ -198,15 +208,19 @@ video{
 #artist01 p,#artist02 p,#artist03 p {
 	font-family: 'Slabo 13px', serif;
 	font-size: 16px;
-	line-height: 27px;
-	letter-spacing: 1px;
+	line-height: 20px;
+	letter-spacing: 0.7px;
 	padding: 0;
 	color: white;
 }
 
-h1 {
-	font-family: 'Roboto Condensed';
+#featureArtists h1{
+	color: #6abd46;
 	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
 	margin-bottom: 50px;
 }
-
+#featureArtists a:hover{
+	color: #6abd46;
+}
