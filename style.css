@@ -9,9 +9,24 @@ h2{
 	font-family: 'Roboto Condensed', sans-serif;
 	text-transform: uppercase;
 }
-
+#wrapper {
+	width: 100%;
+	height: 120px;
+	background-color: rgba(0,0,0,0.5);
+	background-size: cover;
+	padding: 0px;
+	margin: 0px auto;
+	position: relative;
+}
+#logo img{
+	height: 100px;
+	margin-left: 50px;
+	margin-top: 10px
+}
 .nav{
-	height: 90px;
+	position: absolute;
+    top: 10px;
+    right: 30px;;
 }
 .nav li {
 	text-decoration: none;
@@ -31,18 +46,9 @@ h2{
 	text-decoration: none;
 }
 
-#logo{
-	display: inline;
-}
-
-#wrapper {
-	height: 90px;
-/*	background-color: rgba(0,0,0,0.5);*/
-	background-size: cover;
-	padding: 0px;
-	margin: 0px;
-}
-/*CSS for all pages*/
+/**
+	CSS for homepage=========================
+**/
 	
 video{
 	position: fixed;
@@ -90,7 +96,18 @@ video{
     letter-spacing: 2px;
     margin: 0 auto;
 }
-/*about.html*/
+
+/**
+	about.html=========================
+**/
+#slideshow {
+	width: 100vw;
+	height: 100vh;
+	z-index: -100;
+	position: fixed;
+    top: 0;
+    left: 0;
+}
 #container{
 	margin: 0 auto;
 	width: 880px;
@@ -150,27 +167,41 @@ video{
 }
 
 
-/*artist.html*/
+/**
+	artist.html=========================
+**/
+#BGimage{
+	width: 100vw;
+	height: 100vh;
+	z-index: -100;
+	position: fixed;
+    top: 0;
+    left: 0;
+}
+#featureArtists p,a{
+	color: white;
+}
 #featureArtists{
-	margin: 0 auto;
+	width: 1200px;
+    height: 650px;
+    margin: 0 auto;
 }
 
 #artist01,#artist02,#artist03 {
 	float: left;
-	width: 300px;
-	padding-right: 32px;
-	padding-left:114px;	
+	width: 320px;
+	padding: 0 40px;
 	font-family: 'Slabo 13px', serif;
 
 }
 
-#artist01,#artist02,#artist03 p {
-	font-family:'Slabo 13px', serif;
-}
-
-.slideshow {
-	background-image: url("img/BG.gif");
-
+#artist01 p,#artist02 p,#artist03 p {
+	font-family: 'Slabo 13px', serif;
+	font-size: 16px;
+	line-height: 27px;
+	letter-spacing: 1px;
+	padding: 0;
+	color: white;
 }
 
 h1 {
