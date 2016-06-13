@@ -155,13 +155,27 @@ video{
 	margin: 0 auto;
 }
 
-#artist01,#artist02,#artist03{
+#artist01,#artist02,#artist03 {
 	float: left;
 	width: 300px;
+	padding-right: 32px;
+	padding-left:114px;	
+	font-family: 'Slabo 13px', serif;
+
+}
+
+#artist01,#artist02,#artist03 p {
+	font-family:'Slabo 13px', serif;
 }
 
 .slideshow {
 	background-image: url("img/BG.gif");
 
+}
+
+h1 {
+	font-family: 'Roboto Condensed';
+	text-align: center;
+	margin-bottom: 50px;
 }
 
